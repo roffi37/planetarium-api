@@ -33,7 +33,7 @@ class AstronomyShow(admin.ModelAdmin):
 
 @admin.register(PlanetariumDome)
 class PlanetariumDome(admin.ModelAdmin):
-    list_display = ("name", "rows", "seats_in_row", "total_seats", )
+    list_display = ("name", "rows", "seats_in_row", )
     list_filter = ("name", )
     search_fields = ("name", )
 
